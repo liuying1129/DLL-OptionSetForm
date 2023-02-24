@@ -20,7 +20,7 @@ end;
 //TabSheetCaption:各个TabSheet的标题,用#2分隔
 //ItemInfo:节信息.各节用#3分隔.
 //节信息:项目名#2输入框类型#2组信息#2该节所属TabSheet#2说明#2是否加密保存.各节可以没有值,但位置必须存在(即相应的#2必须存在)
-//输入框类型:Edit--编辑框;Combobox--下拉框;CheckListBox--检查组框;Dir--目录选择框;DBConn--数据库连接串框;RadioGroup--单选组;File--文件选择框;Date--日期;Time--时间
+//输入框类型:Edit--编辑框;Combobox--下拉框;CheckListBox--检查组框;Dir--目录选择框;DBConn--数据库连接串框;RadioGroup--单选组;File--文件选择框;Date--日期;Time--时间;UniConn--MySQL/Oracle连接框
 //组信息:例如Combobox的值为一组选项.各组用#13分隔.输入框类型为File时,组信息表示文件过滤属性,如*.bak|*.bak|所有文件|*.*
 //该节所属TabSheet:0表示第1个TabSheet,1表示第2个TabSheet,依此类推
 //说明:支持多行说明，各行用#13分隔

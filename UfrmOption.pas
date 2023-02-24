@@ -273,6 +273,17 @@ begin
         left:=8;
       end;
     end;
+    if uppercase(slItemInfo[1])=uppercase('UniConn') then
+    begin
+      with TLYEdit.Create(self) do
+      begin
+        Parent:=Panel[i];
+        EditType:=etUniConn;
+        width:=self.Width-50;
+        top:=16;
+        left:=8;
+      end;
+    end;
     if uppercase(slItemInfo[1])=uppercase('Combobox') then
     begin
       with TCombobox.Create(self) do
